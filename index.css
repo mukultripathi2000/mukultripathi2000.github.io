@@ -1,0 +1,119 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+h1 {font-family: Comic Sans MS, Comic Sans, cursive;
+ font-style: bold;
+ font-size: 180%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#p1 {font-family: Comic Sans MS, Comic Sans, cursive;
+ font-style: bold;
+text-align: justify;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 50px;
+  font-family: Helvetica;
+  color: black;
+}
+#p2 {
+  background-color: #DEB887;
+  border: 2px solid black;
+  width: 120px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  position: relative;
+  float: right;
+  object-position: top;
+  text-align: center;
+  font-size: 140%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+ font-style: bold;}
+ #p3 {
+  background-color: #00e600;
+  border: 2px solid black;
+  width: 120px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  position: relative;
+  float: right;
+  object-position: top;
+  text-align: center;
+  font-size: 140%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+ font-style: bold;}
+ #p4{
+  background-color: #ff944d;
+  border: 2px solid black;
+  width: 120px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  position: relative;
+  float: right;
+  object-position: top;
+  text-align: center;
+  font-size: 140%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+ font-style: bold;}
+
+.row {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  
+  
+  .col-lg-4 {
+    background-color: #d1b3ff;
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    border: 2px solid black;
+    width: 27.33%;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    
+    background-color: #d1b3ff;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+
+    border: 2px solid black;
+    
+  }
+  
+  .col-md-6 {
+    width: 40%;
+  }
+  
+  .col-md-12 {
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  
+  
+  .col-xs-12 {
+    background-color: #d1b3ff;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    width: 90%;
+  }
+}
+
